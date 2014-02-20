@@ -1,0 +1,1086 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cat",
+				"cat_film"
+			],
+			[
+				"category",
+				"category_film"
+			],
+			[
+				"ca",
+				"category_film"
+			],
+			[
+				"fil",
+				"films"
+			],
+			[
+				"co",
+				"count"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"categ",
+				"categorys"
+			],
+			[
+				"id",
+				"id"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"format",
+				"format_full_date_id"
+			],
+			[
+				"stat",
+				"status"
+			],
+			[
+				"A",
+				"AND"
+			],
+			[
+				"sta",
+				"status"
+			],
+			[
+				"form",
+				"format_param_short"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"emp",
+				"employee"
+			],
+			[
+				"empl",
+				"employee_id"
+			],
+			[
+				"v",
+				"value"
+			],
+			[
+				"dT",
+				"data"
+			],
+			[
+				"xl",
+				"xlog"
+			],
+			[
+				"_",
+				"_FILES"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "arch/views/site/index.php",
+			"settings":
+			{
+				"buffer_size": 1273,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "arch/controllers/site.php",
+			"settings":
+			{
+				"buffer_size": 673,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/default/config/xmenu.php",
+			"settings":
+			{
+				"buffer_size": 2362,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/default/modules/film/views/show.php",
+			"settings":
+			{
+				"buffer_size": 1522,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/default/modules/film/controllers/film.php",
+			"settings":
+			{
+				"buffer_size": 4631,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/default/index.html",
+			"settings":
+			{
+				"buffer_size": 117,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "arch/controllers/crud_controller.php",
+			"settings":
+			{
+				"buffer_size": 12437,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/default/modules/film/views/cat.php",
+			"settings":
+			{
+				"buffer_size": 760,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/default/modules/film/views/detail.php",
+			"settings":
+			{
+				"buffer_size": 712,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/default/modules/film/models/film_model.php",
+			"settings":
+			{
+				"buffer_size": 119,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/wahyu/workspaces/xinix-movie/arch/views/layouts/main.php",
+		"/home/wahyu/workspaces/xinix-movie/application/default/modules/film/views/listing.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/config/smileys.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/views/listing.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/views/user/login.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/controllers/crud_controller.php",
+		"/home/wahyu/workspaces/xinix-movie/system/database/drivers/cubrid/cubrid_result.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/common.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/helpers/format_helper.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/config/facebook.php",
+		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 6/Faskes Primer BPJS KCU Semarang.xlsx",
+		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 7/FASKES UNTUK PESERTA BPJS PER DATI II-KC KEDIRI.xlsx",
+		"/home/wahyu/workspaces/xinix-movie/application/default/modules/horror/views/detail.php",
+		"/home/wahyu/workspaces/xinix-movie/system/helpers/file_helper.php",
+		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 3/FASKES_DIVRE III REVISI.xlsx",
+		"/home/wahyu/workspaces/xinix-movie/application/default/modules/horror/controllers/horror.php",
+		"/home/wahyu/workspaces/xinix-movie/application/default/modules/others/views/detail.php",
+		"/home/wahyu/workspaces/xinix-movie/application/default/modules/others/controllers/others.php",
+		"/home/wahyu/workspaces/xinix-movie/application/default/modules/fiction/views/detail.php",
+		"/home/wahyu/workspaces/xinix-movie/application/default/modules/fiction/controllers/fiction.php",
+		"/home/wahyu/workspaces/xinix-movie/application/default/modules/animation/views/detail.php",
+		"/home/wahyu/workspaces/xinix-movie/application/default/modules/animation/controllers/animation.php",
+		"/home/wahyu/workspaces/xinix-movie/application/default/modules/action/controllers/action.php",
+		"/home/wahyu/workspaces/xinix-movie/application/default/modules/action/views/detail.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/views/mail_templates/invite_me.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/views/site/index.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/views/mail_templates/invite.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/views/install/invoke.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/views/friend/invite.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/index.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/language/id_id/index.html",
+		"/home/wahyu/workspaces/xinix-movie/arch/language/en_us/index.html",
+		"/home/wahyu/workspaces/xinix-movie/arch/models/chat_inbox_model.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/core/MY_Input.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/index.html",
+		"/home/wahyu/workspaces/xinix-movie/arch/models/index.html",
+		"/home/wahyu/workspaces/xinix-movie/arch/libraries/index.html",
+		"/home/wahyu/workspaces/xinix-movie/arch/hooks/index.html",
+		"/home/wahyu/workspaces/xinix-movie/arch/helpers/index.html",
+		"/home/wahyu/workspaces/xinix-movie/arch/errors/index.html",
+		"/home/wahyu/workspaces/xinix-movie/arch/core/index.html",
+		"/home/wahyu/workspaces/xinix-movie/arch/controllers/index.html",
+		"/home/wahyu/workspaces/xinix-movie/arch/config/install.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/config/index.html",
+		"/home/wahyu/workspaces/xinix-movie/arch/arch.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/abstract_renderer.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/controllers/app_crud_controller.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/helpers/chart_helper.php",
+		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 9.rar",
+		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 8.rar",
+		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 7.rar",
+		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 6.rar",
+		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 5.rar",
+		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 4.rar",
+		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 3.rar",
+		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 2.rar",
+		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 12.rar",
+		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 11.rar",
+		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 10.rar",
+		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 1.rar",
+		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 7/FASKES SEKUNDER UNTUK PESERTA BPJS PER KC MALANG.xlsx",
+		"/home/wahyu/workspaces/xinix-movie/system/language/id_id/number_lang.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/www/test/css/linkdefault.css",
+		"/home/wahyu/workspaces/xinix-movie/arch/language/id_id/number_lang.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/php_evaluator.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/javascript_embedder.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/application/default/install/db/web-yakkap.sql",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/www/test/dom_nested_table.html",
+		"/home/wahyu/workspaces/xinix-movie/arch/libraries/Notif/drivers/Notif_email.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/table_cell_renderer.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/list_bullet_renderer.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/text_renderer.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/block_renderer.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/renderer.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/table_row_group_frame_decorator.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/list_bullet_image_frame_decorator.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/table_row_frame_decorator.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/table_cell_frame_decorator.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/list_bullet_frame_decorator.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/text_frame_decorator.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/table_frame_decorator.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/page_frame_decorator.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/image_frame_decorator.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/cached_pdf_decorator.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/block_frame_decorator.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/inline_renderer.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/image_renderer.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/frame_decorator.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/dompdf_internal_exception.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/doc/Bahan WEBSITE YAKKAP I/.~lock.Tabel Indeks Masa Kerja THT dan Gaji Pokok.xlsx#",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/dompdf_exception.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/null_frame_decorator.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/doc/Bahan WEBSITE YAKKAP I/Tabel Indeks Masa Kerja THT dan Gaji Pokok.xlsx",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/inline_frame_decorator.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/www/test/css_z_index.html",
+		"/home/wahyu/workspaces/xinix-movie/themes/bootstrap/vendor/jspdf/libs/pdf.js/web/index.html.template",
+		"/home/wahyu/workspaces/xinix-movie/themes/bootstrap/vendor/jspdf/libs/pdf.js/test/features/index.html",
+		"/home/wahyu/workspaces/xinix-movie/themes/bootstrap/vendor/jspdf/libs/pdf.js/examples/helloworld/index.html",
+		"/home/wahyu/workspaces/xinix-movie/themes/bootstrap/vendor/jspdf/libs/pdf.js/examples/acroforms/index.html",
+		"/home/wahyu/workspaces/xinix-movie/themes/default/vendor/nvd3/src/models/indentedTree.js",
+		"/home/wahyu/workspaces/xinix-movie/themes/bootstrap/vendor/nvd3/src/models/indentedTree.js",
+		"/home/wahyu/workspaces/xinix-movie/themes/bootstrap/vendor/jspdf/tools/jsdoc_template/static/index.html",
+		"/home/wahyu/workspaces/xinix-movie/themes/bootstrap/vendor/jspdf/libs/FileSaver.js/demo/index.xhtml",
+		"/home/wahyu/workspaces/xinix-movie/themes/bootstrap/vendor/jspdf/tools/jsdoc_template/index.tmpl",
+		"/home/wahyu/workspaces/xinix-movie/themes/bootstrap/vendor/jspdf/test/index.htm",
+		"/home/wahyu/workspaces/xinix-movie/themes/bootstrap/vendor/jspdf/doc/index.html",
+		"/home/wahyu/workspaces/xinix-movie/themes/bootstrap/vendor/jspdf/index.html",
+		"/home/wahyu/workspaces/xinix-movie/system/database/drivers/sqlsrv/index.html",
+		"/home/wahyu/workspaces/xinix-movie/system/database/drivers/sqlite/index.html",
+		"/home/wahyu/workspaces/xinix-movie/system/database/drivers/postgre/index.html",
+		"/home/wahyu/workspaces/xinix-movie/system/database/drivers/pdo/index.html",
+		"/home/wahyu/workspaces/xinix-movie/system/database/drivers/odbc/index.html",
+		"/home/wahyu/workspaces/xinix-movie/system/database/drivers/oci8/index.html",
+		"/home/wahyu/workspaces/xinix-movie/system/database/drivers/mysqli/index.html",
+		"/home/wahyu/workspaces/xinix-movie/system/database/drivers/mysql/index.html",
+		"/home/wahyu/workspaces/xinix-movie/system/database/drivers/mssql/index.html",
+		"/home/wahyu/workspaces/xinix-movie/system/database/drivers/cubrid/index.html",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/www/index.php",
+		"/home/wahyu/workspaces/xinix-movie/application/default/language/id_id/index.html",
+		"/home/wahyu/workspaces/xinix-movie/application/default/language/en_us/index.html",
+		"/home/wahyu/workspaces/xinix-movie/application/default/config/development/index.html",
+		"/home/wahyu/workspaces/xinix-movie/system/language/id_id/index.html",
+		"/home/wahyu/workspaces/xinix-movie/system/language/en_us/index.html",
+		"/home/wahyu/workspaces/xinix-movie/system/database/drivers/index.html",
+		"/home/wahyu/workspaces/xinix-movie/application/default/views/index.html",
+		"/home/wahyu/workspaces/xinix-movie/application/default/logs/index.html",
+		"/home/wahyu/workspaces/xinix-movie/application/default/helpers/index.html",
+		"/home/wahyu/workspaces/xinix-movie/application/default/controllers/index.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"listing(",
+			"listing",
+			"$r",
+			"r",
+			"']); ",
+			"clinic",
+			"1",
+			"favicon",
+			"/listing",
+			"horror",
+			"file",
+			"horror",
+			"gallery",
+			"fiction",
+			"span4",
+			"fiction",
+			"masuk",
+			"movie",
+			"peserta",
+			"preview",
+			"DASHBOARD",
+			"glyphicons-halflings.png",
+			"dashboard",
+			"[2]",
+			"text_editor",
+			"foto_1",
+			"YAKKAP",
+			"unauthorized",
+			"$images",
+			"photo",
+			">\n",
+			"span4",
+			"id=\"scan_emp1\"",
+			"\"scan_emp\"",
+			"['",
+			"=>",
+			"name=",
+			"skmb",
+			"payment",
+			"// $this->check_upgrade($id);",
+			"$this->check_upgrade($id);",
+			"20cm",
+			" l(",
+			"type_14",
+			"echo l('",
+			" l(",
+			"l(",
+			"type_14",
+			"l('",
+			"l(",
+			"type17",
+			"Pedoman magnit cadangan",
+			"Kondisi Luas minimum (A) Ps 26 ayat 2",
+			"function edit",
+			"vessel",
+			"@",
+			"_POST",
+			"set_value",
+			"laporan_radio_dkp",
+			"gt_of_vessel",
+			"vessel_owner",
+			"vessel_gt",
+			"vessel_name",
+			"></div>",
+			"</div>",
+			"\"row-fluid\"",
+			"38%",
+			"span9",
+			"38%",
+			"span9",
+			"$this->check_upgrade($id);",
+			"edit",
+			"medium",
+			"lpd",
+			"emp",
+			"print",
+			"summary",
+			"page_32",
+			"span4",
+			"required",
+			"sertifikasi",
+			"span2",
+			" label",
+			"span9",
+			"format_full",
+			"lpkkbb",
+			"$data",
+			"$_POST",
+			"span6",
+			"emplo",
+			"td",
+			"tr",
+			"td",
+			"empl",
+			"emplo",
+			"modal",
+			"mandatory",
+			"modal",
+			"h3",
+			"td",
+			"scan_emp",
+			"                        </",
+			"<div>",
+			"<?php",
+			"                        <?php",
+			"<?php",
+			"function_lala",
+			"label",
+			"echo",
+			"h3",
+			"medium",
+			"                                    <div>",
+			"<div>",
+			"medium",
+			"input",
+			"medium",
+			"large",
+			"input",
+			"large",
+			"input",
+			"large",
+			"45",
+			"input",
+			"center",
+			"<input name",
+			"<input",
+			"lokal",
+			"strip1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"horror",
+			"others",
+			"fiction",
+			"animation",
+			"action",
+			"panjang",
+			"atas pada",
+			"panjang"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "arch/views/site/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								621,
+								621
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "arch/controllers/site.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 673,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								663,
+								663
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "application/default/config/xmenu.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2362,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2317,
+								2317
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 469.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "application/default/modules/film/views/show.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1522,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								803,
+								803
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 357.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "application/default/modules/film/controllers/film.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4631,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								973,
+								973
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 306.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "application/default/index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "arch/controllers/crud_controller.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12437,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3817,
+								3817
+							],
+							[
+								4111,
+								4111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1900.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "application/default/modules/film/views/cat.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 760,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								234,
+								234
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "application/default/modules/film/views/detail.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 712,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								712,
+								712
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "application/default/modules/film/models/film_model.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "xinix-movie.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"site",
+				"arch/controllers/site.php"
+			],
+			[
+				"crud",
+				"arch/controllers/crud_controller.php"
+			],
+			[
+				"listing.php",
+				"arch/views/listing.php"
+			],
+			[
+				"cru",
+				"arch/controllers/crud_controller.php"
+			],
+			[
+				"xmenu",
+				"application/default/config/xmenu.php"
+			],
+			[
+				"film",
+				"application/default/modules/film/controllers/film.php"
+			],
+			[
+				"arch/in",
+				"arch/views/site/index.php"
+			],
+			[
+				"login",
+				"arch/views/user/login.php"
+			],
+			[
+				"xme",
+				"application/default/config/xmenu.php"
+			],
+			[
+				"xmneu",
+				"arch/libraries/xmenu.php"
+			],
+			[
+				"globa",
+				"themes/arch-theme/css/global.css"
+			],
+			[
+				"text_ed",
+				"arch/third_party/dompdf/include/text_frame_decorator.cls.php"
+			],
+			[
+				"listing",
+				"arch/views/listing.php"
+			],
+			[
+				"global.css",
+				"themes/arch-theme/css/global.css"
+			],
+			[
+				"add_photo",
+				"application/default/modules/lap_konstruksi/views/lap_konstruksi/add_photo.php"
+			],
+			[
+				"add_image",
+				"application/default/third_party/dompdf/www/test/backgroundcolor_fontdecoration_pageborder.html"
+			],
+			[
+				"sert_lpktk",
+				"application/default/modules/sert_lpktk3p/views/sert_lpktk3p/print_pdf.php"
+			],
+			[
+				"seamanbook/pa",
+				"application/default/modules/seaman_book/views/page3.php"
+			],
+			[
+				"",
+				"themes/unicorn/views/layouts/main.php"
+			],
+			[
+				"main",
+				"themes/unicorn/views/layouts/main.php"
+			],
+			[
+				"tan",
+				"application/default/modules/tank_cleaning_certificate/controllers/tank_cleaning_certificate.php"
+			],
+			[
+				"sertifikat_h",
+				"application/default/modules/sertifikat_hsc/controllers/sertifikat_hsc.php"
+			],
+			[
+				"sippok",
+				"application/default/modules/sippok/controllers/sippok.php"
+			],
+			[
+				"sippou",
+				"application/default/modules/sippou/controllers/sippou.php"
+			],
+			[
+				"sippobcb",
+				"application/default/modules/sippobcb/controllers/sippobcb.php"
+			],
+			[
+				"sert_sem",
+				"application/default/modules/sert_sementara/controllers/sert_sementara.php"
+			],
+			[
+				"sert_ke",
+				"application/default/modules/sert_kelayakan/controllers/sert_kelayakan.php"
+			],
+			[
+				"ssert_e",
+				"application/default/modules/sert_equipment/controllers/sert_equipment.php"
+			],
+			[
+				"ruang_mesi",
+				"application/default/modules/ruang_mesin/controllers/ruang_mesin.php"
+			],
+			[
+				"ruang_car",
+				"application/default/modules/ruang_cargo/controllers/ruang_cargo.php"
+			],
+			[
+				"sippom_oil",
+				"application/default/modules/sippom_oil/views/page8.php"
+			],
+			[
+				"sippom_o",
+				"application/default/modules/sippom_oil/controllers/sippom_oil.php"
+			],
+			[
+				"sippom",
+				"application/default/modules/sippom_nonoil/controllers/sippom_nonoil.php"
+			],
+			[
+				"lpktk_annex_iv/",
+				"application/default/modules/lpktk_annex_iv/controllers/lpktk_annex_iv.php"
+			],
+			[
+				"lpktk_annex_iv/summary",
+				"application/default/modules/lpktk_annex_iv/views/lpktk_annex_iv/summary.php"
+			],
+			[
+				"lpktk_",
+				"application/default/modules/lpktk_annex_iv/controllers/lpktk_annex_iv.php"
+			],
+			[
+				"lptb",
+				"application/default/modules/lptb/controllers/lptb.php"
+			],
+			[
+				"roa",
+				"application/default/modules/roa/controllers/roa.php"
+			],
+			[
+				"lpnk",
+				"application/default/modules/lpnk/controllers/lpnk.php"
+			],
+			[
+				"garis",
+				"application/default/modules/garis_muat_kapal/controllers/garis_muat_kapal.php"
+			],
+			[
+				"lpktk",
+				"application/default/modules/lpktk/controllers/lpktk.php"
+			],
+			[
+				"pkk.php",
+				"application/default/modules/pkk/controllers/pkk.php"
+			],
+			[
+				"sippobcb/edit",
+				"application/default/modules/sippobcb/views/edit.php"
+			],
+			[
+				"lpkkbb/add",
+				"application/default/modules/lpkkbb/views/lpkkbb/add_photo.php"
+			],
+			[
+				"photo",
+				"application/default/modules/roa/views/roa/photo.php"
+			],
+			[
+				"lpd/pri",
+				"application/default/modules/lpd/views/lpd/print_pdf.php"
+			],
+			[
+				"request/pri",
+				"application/default/modules/request/views/request/print_pdf.php"
+			],
+			[
+				"pkk/summ",
+				"application/default/modules/pkk/views/pkk/summary.php"
+			],
+			[
+				"lpnk/summ",
+				"application/default/modules/lpnk/views/lpnk/summary.php"
+			],
+			[
+				"lptk",
+				"application/default/modules/lptk/controllers/lptk.php"
+			],
+			[
+				"to_knows",
+				"application/default/views/to_knows.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 240.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
