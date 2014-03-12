@@ -14,31 +14,43 @@ echo $this->admin_panel->breadcrumb(array(
 					<legend><b>MOVIE LIST</b></legend>
 					<div class="row-fluid">
 						<span class="span3">
-							Title
+							<?php echo l('Title'); ?>
 						</span>
 						<input type="text" class="span9" name="title" value="<?php echo set_value('title'); ?>">
 					</div>
 					<div class="row-fluid">
 						<span class="span3">
-							Description
+							<?php echo l('Description'); ?>
 						</span>
 						<textarea name="description" rows="10" class="span9"><?php echo set_value('description'); ?></textarea>
 					</div>
 					<div class="row-fluid">
 						<span class="span3">
-							Trailer
+							<?php echo l('Trailer'); ?>
 						</span>
 						<input type="text" class="span9" name="trailer" value="<?php echo set_value('trailer'); ?>">
 					</div>
 					<div class="row-fluid">
 						<span class="span3">
-							Category
+							<?php echo l('Size'); ?>
+						</span>
+						<input type="text" class="span9" name="size" value="<?php echo set_value('size'); ?>">
+					</div>
+					<div class="row-fluid">
+						<span class="span3">
+							<?php echo l('Quality'); ?>
+						</span>
+						<?php echo xform_lookup('quality') ?>
+					</div>
+					<div class="row-fluid">
+						<span class="span3">
+							<?php echo l('Category'); ?>
 						</span>
 						<?php echo form_dropdown('category_id', $category_options) ?>
 					</div>
 					<div class="row-fluid">
 						<span class="span3">
-							Cover
+							<?php echo l('Cover'); ?>
 						</span>
 						<input class='span9' type='file' name='cover' />
 						<?php if(@$id != null): ?>

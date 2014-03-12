@@ -71,15 +71,9 @@ class web extends app_crud_controller {
         $this->load->helper('format');
         $film = $this->_model('film')->get($id);
         $this->_data['film'] = $film;
-        // xlog($film); exit;
-        // $this->_data['images'] = $this->db->query('SELECT * FROM gallery_image WHERE gallery_id = ? AND status !=0 ORDER BY created_time',$id)->result_array();
-        // $gallerys = $this->db->query('SELECT * FROM gallery WHERE status !=0 ORDER BY created_time DESC LIMIT 8 ')->result_array();
-        // foreach ($gallerys as &$item) {
-        //     if(empty($item['image'])){
-        //         $item['image'] = theme_url('img/empty.png');
-        //     }
-        // }
-        // $this->_data['gallerys'] = $gallerys;
+
+        $film_code = $film['trailer'];
+        $youtube = explode("v=", $film_code);
     }
 
 }

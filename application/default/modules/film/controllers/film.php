@@ -7,9 +7,9 @@
 class film extends app_crud_controller {
 	function _config_grid() {
         $config = parent::_config_grid();
-        $config['fields'] = array('cover','title','description','category_id','publish');
-        $config['names'] = array('Cover','Title','Deskripsi','Category','Publish');
-        $config['formats'] = array('callback_foto_1','row_detail','plain_limit(60)','callback__category','param_short');
+        $config['fields'] = array('cover','title','description','size','quality','category_id','publish');
+        $config['names'] = array('Cover','Title','Deskripsi','Size','Quality','Category','Publish');
+        $config['formats'] = array('callback_foto_1','row_detail','plain_limit(30)','','param_short','callback__category','param_short');
         $config['actions'] = array(
                     'edit' => 'film/edit',
                     'trash' => 'film/trash',
