@@ -7,10 +7,42 @@
 class film extends app_crud_controller {
 	function _config_grid() {
         $config = parent::_config_grid();
-        $config['fields'] = array('cover','title','description','category_id');
-        $config['names'] = array('Cover','Title','Deskripsi','Category');
-        $config['formats'] = array('callback_foto_1','row_detail','plain_limit(60)','callback__category');
+        $config['fields'] = array('cover','title','description','category_id','publish');
+        $config['names'] = array('Cover','Title','Deskripsi','Category','Publish');
+        $config['formats'] = array('callback_foto_1','row_detail','plain_limit(60)','callback__category','param_short');
+        $config['actions'] = array(
+                    'edit' => 'film/edit',
+                    'trash' => 'film/trash',
+                    'publish' => 'film/publish'
+                    );
+       
         return $config;
+    }
+    
+    function publish($id){
+        $data = $this->_model()->get($id);
+        $status = '';
+        if ($data['publish'] == 1) {
+            $status = 2 ;
+        }else{
+            $status = 1 ;
+        }
+        $_POST['publish'] = $status;
+        if ($_POST) {
+            try{
+                $this -> _model() ->before_save($_POST,$id);
+                $this->db->where('id',$id);
+                $this->db->update('film', $_POST);
+
+                add_info(($id)? l('Record updated') : l('Record added'));
+
+                if (!$this->input->is_ajax_request()){
+                    redirect($this->_get_uri('listing'));
+                }  
+            } catch (Exception $e) {
+                add_error(l($e->getMessage()));
+            }
+        }
     }
 
     function _category($value){
@@ -94,7 +126,6 @@ class film extends app_crud_controller {
                 $_POST = $model->get($id);
             }
         }
-        // $    this->_data['image'] = get_image_path(@$_POST['image'], 'normal');
     } 
 
     function cat($cat_id, $offset = 0){
@@ -116,7 +147,7 @@ class film extends app_crud_controller {
             'total_rows' => $count,
             'per_page' => $per_page,
             'uri_segment' => 3,
-            'base_url' => site_url('film/cat/'.$cat_id),
+            'base_url' => site_url('web/cat/'.$cat_id),
         ));
         $this->_data['films'] = $films;
     } 

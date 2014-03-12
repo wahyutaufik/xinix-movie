@@ -25,7 +25,7 @@ $config = array();
 $config['xmenu_source'] = 'inline';
 
 $config['xmenu_items'][0]['title'] = 'Home';
-$config['xmenu_items'][0]['uri'] = '/';
+$config['xmenu_items'][0]['uri'] = 'site/index';
 
 $config['xmenu_items'][1]['title'] = 'System';
 
@@ -57,3 +57,7 @@ $config['xmenu_items'][3]['children'][0]['title'] = 'List';
 $config['xmenu_items'][3]['children'][0]['uri'] = 'film/listing';
 $config['xmenu_items'][3]['children'][2]['title'] = 'Category';
 $config['xmenu_items'][3]['children'][2]['uri'] = 'category/listing';
+
+$config['xmenu_items'][4]['title'] = 'Request';
+$config['xmenu_items'][4]['children'][0]['title'] = 'List';
+$config['xmenu_items'][4]['children'][0]['uri'] = 'request/listing';

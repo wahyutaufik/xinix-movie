@@ -22,8 +22,8 @@
 class site extends app_base_controller {
 
     function index() {
+        $model = $this->_model();
     	$category_film = $this->db->query("SELECT * FROM category")->result_array();
-    	// xlog($category_film);exit;
     	$this->_data['category_film'] = $category_film;
     }
 

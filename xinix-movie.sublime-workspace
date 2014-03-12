@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"fun",
+				"function"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"re",
+				"no-repeat"
+			],
+			[
 				"cat",
 				"cat_film"
 			],
@@ -96,82 +108,60 @@
 	"buffers":
 	[
 		{
-			"file": "arch/views/site/index.php",
+			"file": "application/default/modules/web/views/web/request.php",
 			"settings":
 			{
-				"buffer_size": 1273,
+				"buffer_size": 435,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "arch/controllers/site.php",
+			"file": "themes/arch-theme/css/web.css",
 			"settings":
 			{
-				"buffer_size": 673,
+				"buffer_size": 32566,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "application/default/config/xmenu.php",
-			"settings":
-			{
-				"buffer_size": 2362,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "application/default/modules/film/views/show.php",
-			"settings":
-			{
-				"buffer_size": 1522,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "application/default/modules/film/controllers/film.php",
-			"settings":
-			{
-				"buffer_size": 4631,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "application/default/index.html",
-			"settings":
-			{
-				"buffer_size": 117,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "arch/controllers/crud_controller.php",
-			"settings":
-			{
-				"buffer_size": 12437,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "application/default/modules/film/views/cat.php",
-			"settings":
-			{
-				"buffer_size": 760,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "application/default/modules/film/views/detail.php",
-			"settings":
-			{
-				"buffer_size": 712,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "application/default/modules/film/models/film_model.php",
+			"file": "application/default/modules/web/views/web/detail.php",
 			"settings":
 			{
 				"buffer_size": 119,
+				"line_ending": "Unix",
+				"name": "detail.php"
+			}
+		},
+		{
+			"file": "application/default/modules/web/views/web/privacy.php",
+			"settings":
+			{
+				"buffer_size": 74,
+				"line_ending": "Unix",
+				"name": "privacy.php"
+			}
+		},
+		{
+			"file": "application/default/modules/web/controllers/web.php",
+			"settings":
+			{
+				"buffer_size": 674,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/default/modules/web/views/web/index.php",
+			"settings":
+			{
+				"buffer_size": 927,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "themes/arch-theme/views/layouts/web.php",
+			"settings":
+			{
+				"buffer_size": 3314,
 				"line_ending": "Unix"
 			}
 		}
@@ -203,12 +193,103 @@
 	},
 	"file_history":
 	[
+		"/home/wahyu/workspaces/xinix-movie/themes/arch-theme/css/user.css",
+		"/home/wahyu/workspaces/xinix-movie/arch/models/site_model.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/controllers/site.php",
+		"/home/wahyu/workspaces/xinix-movie/application/default/modules/web/views/web/category.php",
+		"/home/wahyu/workspaces/xinix-movie/application/default/modules/category/views/category/show.php",
+		"/home/wahyu/workspaces/xinix-movie/application/default/modules/web/controllers/web.php",
+		"/home/wahyu/workspaces/xinix-movie/application/default/modules/web/views/web/index.php",
+		"/home/wahyu/workspaces/xinix-movie/application/default/modules/category/controllers/category.php",
+		"/home/wahyu/workspaces/xinix-movie/application/default/modules/film/controllers/film.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/views/site/index.php",
 		"/home/wahyu/workspaces/xinix-movie/arch/views/layouts/main.php",
+		"/home/wahyu/workspaces/xinix-movie/themes/arch-theme/views/layouts/web.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/controllers/base_user_controller.php",
+		"/home/wahyu/workspaces/xinix-movie/application/default/config/xmenu.php",
+		"/home/wahyu/workspaces/xinix-movie/application/default/modules/web/views/web/request.php",
+		"/home/wahyu/workspaces/xinix-movie/application/default/manifest.php",
+		"/home/wahyu/workspaces/xinix-movie/xinix-movie.sublime-project",
+		"/home/wahyu/workspaces/xinix-movie/arch/views/user/unauthorized.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/lib/ttf2ufm/src/maps/unicode-sample.map",
+		"/home/wahyu/workspaces/xinix-movie/arch/controllers/user.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/arch.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/absolute_positioner.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/config/app.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/controllers/app_base_controller.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/controllers/app_crud_controller.php",
+		"/home/wahyu/workspaces/xinix-movie/application/default/cache/xinix-movie_USER_PRIVILEGE",
+		"/home/wahyu/workspaces/xinix-movie/application/default/modules/film/views/show.php",
+		"/home/wahyu/workspaces/xinix-movie/themes/arch-theme/css/web.css",
+		"/home/wahyu/workspaces/xinix-movie/themes/arch-theme/css/bootstrap.css",
+		"/home/wahyu/workspaces/xinix-movie/themes/arch-theme/views/layouts/main.php",
+		"/home/wahyu/workspaces/xinix-movie/bin/wkhtmltopdf-amd64",
+		"/home/wahyu/workspaces/xinix-movie/arch/views/user/login.php",
+		"/home/wahyu/workspaces/xinix-movie/system/database/drivers/index.html",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/index.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/language/id_id/index.html",
+		"/home/wahyu/workspaces/xinix-movie/arch/language/en_us/index.html",
+		"/home/wahyu/workspaces/xinix-movie/application/default/views/index.html",
+		"/home/wahyu/workspaces/xinix-movie/application/default/logs/index.html",
+		"/home/wahyu/workspaces/xinix-movie/application/default/helpers/index.html",
+		"/home/wahyu/workspaces/xinix-movie/application/default/controllers/index.html",
+		"/home/wahyu/workspaces/xinix-movie/application/default/config/index.html",
+		"/home/wahyu/workspaces/xinix-movie/application/default/cache/index.html",
+		"/home/wahyu/workspaces/xinix-movie/system/libraries/index.html",
+		"/home/wahyu/workspaces/xinix-movie/system/language/index.html",
+		"/home/wahyu/workspaces/xinix-movie/system/helpers/index.html",
+		"/home/wahyu/workspaces/xinix-movie/system/fonts/index.html",
+		"/home/wahyu/workspaces/xinix-movie/system/database/index.html",
+		"/home/wahyu/workspaces/xinix-movie/system/core/index.html",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/index.html",
+		"/home/wahyu/workspaces/xinix-movie/arch/models/index.html",
+		"/home/wahyu/workspaces/xinix-movie/arch/libraries/index.html",
+		"/home/wahyu/workspaces/xinix-movie/arch/hooks/index.html",
+		"/home/wahyu/workspaces/xinix-movie/arch/helpers/index.html",
+		"/home/wahyu/workspaces/xinix-movie/arch/errors/index.html",
+		"/home/wahyu/workspaces/xinix-movie/arch/core/index.html",
+		"/home/wahyu/workspaces/xinix-movie/arch/controllers/index.html",
+		"/home/wahyu/workspaces/xinix-movie/arch/config/index.html",
+		"/home/wahyu/workspaces/xinix-movie/application/default/index.html",
+		"/home/wahyu/workspaces/xinix-movie/system/index.html",
+		"/home/wahyu/workspaces/xinix-movie/application/index.html",
+		"/home/wahyu/workspaces/xinix-movie/index.php",
+		"/home/wahyu/workspaces/xinix-movie/themes/arch-theme/css/global.css",
+		"/home/wahyu/workspaces/xinix-movie/themes/arch-theme/js/code-prettify/lang-yaml.js",
+		"/home/wahyu/workspaces/xinix-movie/themes/arch-theme/js/code-prettify/lang-apollo.js",
+		"/home/wahyu/workspaces/xinix-movie/application/default/config/routes.php",
+		"/home/wahyu/workspaces/xinix-movie/themes/arch-theme/css/bootstrap.min.css",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/www/test/dom_long_table.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/views/libraries/notif_system_show.php",
+		"/home/wahyu/workspaces/xinix-movie/themes/arch-theme/css/carousel.css",
+		"/home/wahyu/workspaces/xinix-movie/application/default/modules/film/views/detail.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/views/site/example.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/views/web/index.php",
+		"/home/wahyu/workspaces/xinix-movie/application/default/views/web/index.php",
+		"/home/wahyu/workspaces/xinix-movie/application/default/modules/film/views/edit.php",
+		"/home/wahyu/workspaces/xinix-movie/themes/movie/index.php",
+		"/home/wahyu/workspaces/xinix-movie/system/libraries/Upload.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/views/user/show.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/modules/message/views/detail.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/views/role/detail.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/views/organization/detail.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/views/detail.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/dompdf_exception.cls.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/config/database.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/lib/ttf2ufm/src/encodings/russian/encodings.alias",
+		"/home/wahyu/workspaces/xinix-movie/application/default/modules/film/views/cat.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/controllers/crud_controller.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/views/mail_templates/user_accepted.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/config/hooks.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/lib/fonts/Helvetica-Oblique.afm",
+		"/home/wahyu/workspaces/xinix-movie/arch/models/historical_model.php",
+		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 9/FASKES UNTUK PESERTA BPJS PER KC BAU-BAU.xlsx",
+		"/home/wahyu/workspaces/xinix-movie/application/default/modules/film/models/film_model.php",
+		"/home/wahyu/workspaces/xinix-movie/arch/controllers/unit_controller.php",
+		"/home/wahyu/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/wahyu/workspaces/xinix-movie/application/default/modules/film/views/listing.php",
 		"/home/wahyu/workspaces/xinix-movie/arch/config/smileys.php",
 		"/home/wahyu/workspaces/xinix-movie/arch/views/listing.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/views/user/login.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/controllers/crud_controller.php",
 		"/home/wahyu/workspaces/xinix-movie/system/database/drivers/cubrid/cubrid_result.php",
 		"/home/wahyu/workspaces/xinix-movie/arch/common.php",
 		"/home/wahyu/workspaces/xinix-movie/arch/helpers/format_helper.php",
@@ -228,109 +309,18 @@
 		"/home/wahyu/workspaces/xinix-movie/application/default/modules/action/controllers/action.php",
 		"/home/wahyu/workspaces/xinix-movie/application/default/modules/action/views/detail.php",
 		"/home/wahyu/workspaces/xinix-movie/arch/views/mail_templates/invite_me.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/views/site/index.php",
 		"/home/wahyu/workspaces/xinix-movie/arch/views/mail_templates/invite.php",
 		"/home/wahyu/workspaces/xinix-movie/arch/views/install/invoke.php",
 		"/home/wahyu/workspaces/xinix-movie/arch/views/friend/invite.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/index.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/language/id_id/index.html",
-		"/home/wahyu/workspaces/xinix-movie/arch/language/en_us/index.html",
 		"/home/wahyu/workspaces/xinix-movie/arch/models/chat_inbox_model.php",
 		"/home/wahyu/workspaces/xinix-movie/arch/core/MY_Input.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/index.html",
-		"/home/wahyu/workspaces/xinix-movie/arch/models/index.html",
-		"/home/wahyu/workspaces/xinix-movie/arch/libraries/index.html",
-		"/home/wahyu/workspaces/xinix-movie/arch/hooks/index.html",
-		"/home/wahyu/workspaces/xinix-movie/arch/helpers/index.html",
-		"/home/wahyu/workspaces/xinix-movie/arch/errors/index.html",
-		"/home/wahyu/workspaces/xinix-movie/arch/core/index.html",
-		"/home/wahyu/workspaces/xinix-movie/arch/controllers/index.html",
 		"/home/wahyu/workspaces/xinix-movie/arch/config/install.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/config/index.html",
-		"/home/wahyu/workspaces/xinix-movie/arch/arch.php",
 		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/abstract_renderer.cls.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/controllers/app_crud_controller.php",
 		"/home/wahyu/workspaces/xinix-movie/arch/helpers/chart_helper.php",
 		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 9.rar",
 		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 8.rar",
 		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 7.rar",
-		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 6.rar",
-		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 5.rar",
-		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 4.rar",
-		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 3.rar",
-		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 2.rar",
-		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 12.rar",
-		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 11.rar",
-		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 10.rar",
-		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 1.rar",
-		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 7/FASKES SEKUNDER UNTUK PESERTA BPJS PER KC MALANG.xlsx",
-		"/home/wahyu/workspaces/xinix-movie/system/language/id_id/number_lang.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/www/test/css/linkdefault.css",
-		"/home/wahyu/workspaces/xinix-movie/arch/language/id_id/number_lang.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/php_evaluator.cls.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/javascript_embedder.cls.php",
-		"/home/wahyu/workspaces/xinix-movie/application/default/install/db/web-yakkap.sql",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/www/test/dom_nested_table.html",
-		"/home/wahyu/workspaces/xinix-movie/arch/libraries/Notif/drivers/Notif_email.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/table_cell_renderer.cls.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/list_bullet_renderer.cls.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/text_renderer.cls.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/block_renderer.cls.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/renderer.cls.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/table_row_group_frame_decorator.cls.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/list_bullet_image_frame_decorator.cls.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/table_row_frame_decorator.cls.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/table_cell_frame_decorator.cls.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/list_bullet_frame_decorator.cls.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/text_frame_decorator.cls.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/table_frame_decorator.cls.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/page_frame_decorator.cls.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/image_frame_decorator.cls.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/cached_pdf_decorator.cls.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/block_frame_decorator.cls.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/inline_renderer.cls.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/image_renderer.cls.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/frame_decorator.cls.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/dompdf_internal_exception.cls.php",
-		"/home/wahyu/workspaces/xinix-movie/doc/Bahan WEBSITE YAKKAP I/.~lock.Tabel Indeks Masa Kerja THT dan Gaji Pokok.xlsx#",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/dompdf_exception.cls.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/null_frame_decorator.cls.php",
-		"/home/wahyu/workspaces/xinix-movie/doc/Bahan WEBSITE YAKKAP I/Tabel Indeks Masa Kerja THT dan Gaji Pokok.xlsx",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/include/inline_frame_decorator.cls.php",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/www/test/css_z_index.html",
-		"/home/wahyu/workspaces/xinix-movie/themes/bootstrap/vendor/jspdf/libs/pdf.js/web/index.html.template",
-		"/home/wahyu/workspaces/xinix-movie/themes/bootstrap/vendor/jspdf/libs/pdf.js/test/features/index.html",
-		"/home/wahyu/workspaces/xinix-movie/themes/bootstrap/vendor/jspdf/libs/pdf.js/examples/helloworld/index.html",
-		"/home/wahyu/workspaces/xinix-movie/themes/bootstrap/vendor/jspdf/libs/pdf.js/examples/acroforms/index.html",
-		"/home/wahyu/workspaces/xinix-movie/themes/default/vendor/nvd3/src/models/indentedTree.js",
-		"/home/wahyu/workspaces/xinix-movie/themes/bootstrap/vendor/nvd3/src/models/indentedTree.js",
-		"/home/wahyu/workspaces/xinix-movie/themes/bootstrap/vendor/jspdf/tools/jsdoc_template/static/index.html",
-		"/home/wahyu/workspaces/xinix-movie/themes/bootstrap/vendor/jspdf/libs/FileSaver.js/demo/index.xhtml",
-		"/home/wahyu/workspaces/xinix-movie/themes/bootstrap/vendor/jspdf/tools/jsdoc_template/index.tmpl",
-		"/home/wahyu/workspaces/xinix-movie/themes/bootstrap/vendor/jspdf/test/index.htm",
-		"/home/wahyu/workspaces/xinix-movie/themes/bootstrap/vendor/jspdf/doc/index.html",
-		"/home/wahyu/workspaces/xinix-movie/themes/bootstrap/vendor/jspdf/index.html",
-		"/home/wahyu/workspaces/xinix-movie/system/database/drivers/sqlsrv/index.html",
-		"/home/wahyu/workspaces/xinix-movie/system/database/drivers/sqlite/index.html",
-		"/home/wahyu/workspaces/xinix-movie/system/database/drivers/postgre/index.html",
-		"/home/wahyu/workspaces/xinix-movie/system/database/drivers/pdo/index.html",
-		"/home/wahyu/workspaces/xinix-movie/system/database/drivers/odbc/index.html",
-		"/home/wahyu/workspaces/xinix-movie/system/database/drivers/oci8/index.html",
-		"/home/wahyu/workspaces/xinix-movie/system/database/drivers/mysqli/index.html",
-		"/home/wahyu/workspaces/xinix-movie/system/database/drivers/mysql/index.html",
-		"/home/wahyu/workspaces/xinix-movie/system/database/drivers/mssql/index.html",
-		"/home/wahyu/workspaces/xinix-movie/system/database/drivers/cubrid/index.html",
-		"/home/wahyu/workspaces/xinix-movie/arch/third_party/dompdf/www/index.php",
-		"/home/wahyu/workspaces/xinix-movie/application/default/language/id_id/index.html",
-		"/home/wahyu/workspaces/xinix-movie/application/default/language/en_us/index.html",
-		"/home/wahyu/workspaces/xinix-movie/application/default/config/development/index.html",
-		"/home/wahyu/workspaces/xinix-movie/system/language/id_id/index.html",
-		"/home/wahyu/workspaces/xinix-movie/system/language/en_us/index.html",
-		"/home/wahyu/workspaces/xinix-movie/system/database/drivers/index.html",
-		"/home/wahyu/workspaces/xinix-movie/application/default/views/index.html",
-		"/home/wahyu/workspaces/xinix-movie/application/default/logs/index.html",
-		"/home/wahyu/workspaces/xinix-movie/application/default/helpers/index.html",
-		"/home/wahyu/workspaces/xinix-movie/application/default/controllers/index.html"
+		"/home/wahyu/workspaces/xinix-movie/doc/DAFTAR PPK PROVIDER BPJS SE INDONESIA/DIVRE 6.rar"
 	],
 	"find":
 	{
@@ -349,6 +339,60 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"300",
+			"main",
+			"section",
+			"main",
+			"#main",
+			"Blog",
+			"cover",
+			"title",
+			"category",
+			"$category_film",
+			"cat",
+			"css/",
+			"<img",
+			"../assets",
+			"}\n",
+			"text",
+			"title",
+			"#fec700",
+			"fec700",
+			"wrapper",
+			"title",
+			"blog",
+			"ico",
+			"blog",
+			"ico",
+			"url",
+			";",
+			"}",
+			"{",
+			";",
+			"}",
+			"{",
+			" { ",
+			"{",
+			";",
+			"}",
+			"{",
+			"p/",
+			"href",
+			"'http",
+			"}",
+			";",
+			"}",
+			"{",
+			";",
+			"}",
+			"{",
+			";",
+			"body",
+			"login-form",
+			"site/index",
+			"file_size",
+			"question",
+			"unaothorized",
 			"listing(",
 			"listing",
 			"$r",
@@ -422,61 +466,7 @@
 			"$this->check_upgrade($id);",
 			"edit",
 			"medium",
-			"lpd",
-			"emp",
-			"print",
-			"summary",
-			"page_32",
-			"span4",
-			"required",
-			"sertifikasi",
-			"span2",
-			" label",
-			"span9",
-			"format_full",
-			"lpkkbb",
-			"$data",
-			"$_POST",
-			"span6",
-			"emplo",
-			"td",
-			"tr",
-			"td",
-			"empl",
-			"emplo",
-			"modal",
-			"mandatory",
-			"modal",
-			"h3",
-			"td",
-			"scan_emp",
-			"                        </",
-			"<div>",
-			"<?php",
-			"                        <?php",
-			"<?php",
-			"function_lala",
-			"label",
-			"echo",
-			"h3",
-			"medium",
-			"                                    <div>",
-			"<div>",
-			"medium",
-			"input",
-			"medium",
-			"large",
-			"input",
-			"large",
-			"input",
-			"large",
-			"45",
-			"input",
-			"center",
-			"<input name",
-			"<input",
-			"lokal",
-			"strip1"
+			"lpd"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -502,238 +492,29 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "arch/views/site/index.php",
+					"file": "application/default/modules/web/views/web/request.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1273,
+						"buffer_size": 435,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								621,
-								621
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "arch/controllers/site.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 673,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								663,
-								663
+								262,
+								262
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "application/default/config/xmenu.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2362,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2317,
-								2317
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 469.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "application/default/modules/film/views/show.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1522,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								803,
-								803
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 357.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "application/default/modules/film/controllers/film.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4631,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								973,
-								973
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 306.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "application/default/index.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 117,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "arch/controllers/crud_controller.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12437,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3817,
-								3817
-							],
-							[
-								4111,
-								4111
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1900.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "application/default/modules/film/views/cat.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 760,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								234,
-								234
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -743,37 +524,38 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "application/default/modules/film/views/detail.php",
+					"buffer": 1,
+					"file": "themes/arch-theme/css/web.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 712,
+						"buffer_size": 32566,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								712,
-								712
+								3253,
+								3253
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": -0.0,
-						"translation.y": 0.0,
+						"translation.x": 0.0,
+						"translation.y": 2844.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "application/default/modules/film/models/film_model.php",
+					"buffer": 2,
+					"file": "application/default/modules/web/views/web/detail.php",
 					"semi_transient": false,
 					"settings":
 					{
@@ -784,8 +566,66 @@
 						"selection":
 						[
 							[
-								111,
-								111
+								95,
+								95
+							]
+						],
+						"settings":
+						{
+							"auto_name": "detail.php",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "application/default/modules/web/views/web/privacy.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 74,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								59,
+								59
+							]
+						],
+						"settings":
+						{
+							"auto_name": "privacy.php",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "application/default/modules/web/controllers/web.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 674,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								619,
+								619
 							]
 						],
 						"settings":
@@ -793,10 +633,75 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 255.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "application/default/modules/web/views/web/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 927,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								261,
+								261
+							],
+							[
+								436,
+								436
+							],
+							[
+								602,
+								602
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": -0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "themes/arch-theme/views/layouts/web.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3314,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2169,
+								2169
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 255.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -840,7 +745,7 @@
 	"project": "xinix-movie.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -848,6 +753,42 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"main",
+				"arch/views/layouts/main.php"
+			],
+			[
+				"xmen",
+				"application/default/config/xmenu.php"
+			],
+			[
+				"login",
+				"arch/views/user/login.php"
+			],
+			[
+				"inde",
+				"arch/views/site/index.php"
+			],
+			[
+				"layout",
+				"themes/arch-theme/views/layouts/web.php"
+			],
+			[
+				"log",
+				"arch/views/user/login.php"
+			],
+			[
+				"detail",
+				"application/default/modules/film/views/detail.php"
+			],
+			[
+				"view/user.php",
+				"arch/views/user/show.php"
+			],
+			[
+				"unau",
+				"arch/views/user/unauthorized.php"
+			],
 			[
 				"site",
 				"arch/controllers/site.php"
@@ -875,10 +816,6 @@
 			[
 				"arch/in",
 				"arch/views/site/index.php"
-			],
-			[
-				"login",
-				"arch/views/user/login.php"
 			],
 			[
 				"xme",
@@ -922,10 +859,6 @@
 			],
 			[
 				"",
-				"themes/unicorn/views/layouts/main.php"
-			],
-			[
-				"main",
 				"themes/unicorn/views/layouts/main.php"
 			],
 			[

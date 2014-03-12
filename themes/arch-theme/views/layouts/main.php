@@ -7,8 +7,8 @@
 
     <link href="<?php echo theme_url('css/bootstrap.css') ?>" rel="stylesheet" media="screen" />
     <link href="<?php echo theme_url('css/bootstrap-responsive.min.css') ?>" rel="stylesheet" />
-    <link href="<?php echo theme_url('css/global.css') ?>" rel="stylesheet" media="screen" />
     <link href="<?php echo theme_url('css/user.css') ?>" rel="stylesheet" media="screen" />
+    <link href="<?php echo theme_url('css/global.css') ?>" rel="stylesheet" media="screen" />
     <link href="<?php echo theme_url('js/code-prettify/prettify.css') ?>" media="all" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript" src="<?php echo theme_url('js/jquery-1.8.2.min.js') ?>"></script>

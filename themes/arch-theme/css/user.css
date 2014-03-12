@@ -306,3 +306,10 @@ RESPONSIVE
     border-left: 1px solid #DDD;
     padding: 10px;
 }
+
+/*//add for image gallery*/
+.image-container { display:block; background:#ccc center no-repeat; border:1px solid #999; width:300px; height:250px; float:left; margin:5px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px }
+
+.data-image { float:none; margin:0px auto; margin-bottom:10px }
+.data-image.small-left, .data-image.small-right { width: 70px; height:70px; float: left; margin-right: 4px;}
+.data-image.small-right { margin-right: 0; }

@@ -38,7 +38,7 @@
 |
 */
 
-$route['default_controller'] = 'site/index';
+$route['default_controller'] = 'web/index';
 $route['404_override'] = '';
 
 $route['profile/(:any)'] = 'user/profile/$1';
