@@ -97,6 +97,15 @@ echo $this->admin_panel->breadcrumb(array(
             <label><?php echo l('Roles') ?></label>
             <?php echo form_multiselect('roles[]', $role_items, @$_POST['roles']) ?>
         </div>
+        <div>
+            <label><?php echo l('Image') ?></label>
+            <!-- <input type='file' name='image' /><br> -->
+            <div>
+                <?php if(@$id != null): ?>
+                    <img width="120px" src="<?php echo base_url() ?>data/<?php echo set_value('image') ?>" />
+                <?php endif ?>
+            </div>
+        </div>
     </fieldset>
     <div class="action-buttons btn-group">
         <input type="submit" />

@@ -17,10 +17,14 @@
 					<div class="span7">
 						<?php foreach ($request as $req):?>
 						<div class="row-fluid">
-							<div class="span3" style="color: #02ADD8;"><?php echo format_model_param($req['user_id'],'user','','',array('username')); ?></div>
-							<div class="span1" style="color: #02ADD8;"><?php echo l('|'); ?></div>
-							<div class="span8"><?php echo $req['content']; ?></div>
-						</div>
+							<div class="span1">
+								<img src="<?php echo format_model_param($req['user_id'],'user','','',array('image')); ?>" alt="">
+							</div>
+							<div class="span11">
+								<span style="color: #02ADD8;"><?php echo format_model_param($req['user_id'],'user','','',array('username')); ?></span> Request <br>
+								<?php echo $req['content']; ?>
+								</div>
+						</div><br><br>
 						<?php endforeach;?>
 					</div>
 				</div>

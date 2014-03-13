@@ -40,7 +40,7 @@
                 <div style="text-align: center">
                 	<p>
 	                    <a href="<?php echo $CI->auth->login_page() ?>" class="btn"><?php echo l('Login') ?></a>
-						<a href="<?php echo base_url() ?>" class="btn"><?php echo l('Home') ?></a>
+						<a href="<?php echo site_url('web/signup') ?>" class="btn"><?php echo l('Signup') ?></a>
                 	</p>
                 </div>
             </div>

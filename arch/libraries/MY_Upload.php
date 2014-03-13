@@ -26,51 +26,61 @@ class MY_Upload extends CI_Upload {
     var $_data;
 
     function initialize($params = array()) {
+        // $CI = &get_instance();
+
+        // if (!empty($params['field'])) {
+        //     $this->field = $params['field'];
+        //     $params['upload_path'] = './data/' . $CI->_name . '/' . $params['field'];
+        //     if (!file_exists($params['upload_path'])) {
+        //         @mkdir($params['upload_path'], 0777, true);
+        //     }
+        // }
+
+        // parent::initialize($params);
+
+        // wahyu neh yg ganti
         $CI = &get_instance();
 
         if (!empty($params['field'])) {
             $this->field = $params['field'];
-            $params['upload_path'] = './data/' . $CI->_name . '/' . $params['field'];
-            if (!file_exists($params['upload_path'])) {
-                @mkdir($params['upload_path'], 0777, true);
-            }
         }
 
         parent::initialize($params);
+        // end wahyu
     }
 
     public function mimes_types($mime)
-	{
-		global $mimes;
-		if (count($this->mimes) == 0)
-		{
-			if (defined('ENVIRONMENT') AND is_file(APPPATH.'config/'.ENVIRONMENT.'/mimes.php'))
-			{
-				include(APPPATH.'config/'.ENVIRONMENT.'/mimes.php');
-			}
-			elseif (is_file(APPPATH.'config/mimes.php'))
-			{
-				include(APPPATH.'config/mimes.php');
-			}
-			elseif (defined('ENVIRONMENT') AND is_file(ARCHPATH.'config/'.ENVIRONMENT.'/mimes.php'))
-			{
-				include(ARCHPATH.'config/'.ENVIRONMENT.'/mimes.php');
-			}
-			elseif (is_file(ARCHPATH.'config/mimes.php'))
-			{
-				include(ARCHPATH.'config/mimes.php');
-			}
-			else
-			{
-				return FALSE;
-			}
+    {
+        global $mimes;
+        if (count($this->mimes) == 0)
+        {
+            if (defined('ENVIRONMENT') AND is_file(APPPATH.'config/'.ENVIRONMENT.'/mimes.php'))
+            {
+                include(APPPATH.'config/'.ENVIRONMENT.'/mimes.php');
+            }
+            elseif (is_file(APPPATH.'config/mimes.php'))
+            {
+                include(APPPATH.'config/mimes.php');
+            }
+            elseif (defined('ENVIRONMENT') AND is_file(ARCHPATH.'config/'.ENVIRONMENT.'/mimes.php'))
+            {
+                include(ARCHPATH.'config/'.ENVIRONMENT.'/mimes.php');
+            }
+            elseif (is_file(ARCHPATH.'config/mimes.php'))
+            {
+                include(ARCHPATH.'config/mimes.php');
+            }
+            else
+            {
+                return FALSE;
+            }
 
-			$this->mimes = $mimes;
-			unset($mimes);
-		}
+            $this->mimes = $mimes;
+            unset($mimes);
+        }
 
-		return ( ! isset($this->mimes[$mime])) ? FALSE : $this->mimes[$mime];
-	}
+        return ( ! isset($this->mimes[$mime])) ? FALSE : $this->mimes[$mime];
+    }
     /**
      * Perform the file upload
      *
@@ -84,7 +94,6 @@ class MY_Upload extends CI_Upload {
             $this->set_error('upload_no_file_selected');
             return FALSE;
         }
-
         // Is the upload path valid?
         if ( ! $this->validate_upload_path())
         {
