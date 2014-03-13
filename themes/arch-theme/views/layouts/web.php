@@ -43,7 +43,7 @@
 									<li><a href='<?php echo site_url()?>'><?php echo l('Home') ?></a></li>
 									<li><a href='<?php echo site_url('web/category')?>'><?php echo l('Category') ?></a></li>
 									<li><a href='<?php echo site_url('web/privacy')?>'>Privacy Policy</a></li>
-									<li><a href='<?php echo site_url('web/request')?>'>Request Film</a></li>
+									<li><a href='<?php echo site_url('web/request_movie')?>'>Request Film</a></li>
 									<?php $USER = $CI->auth->get_user() ?>
 									<?php if($USER['is_login']) : ?>
 									<li><a href='<?php echo site_url('user/logout')?>'>Logout</a></li>
