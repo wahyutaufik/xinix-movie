@@ -18,7 +18,7 @@
 						<?php foreach ($request as $req):?>
 						<div class="row-fluid">
 							<div class="span1">
-								<img src="<?php echo format_model_param($req['user_id'],'user','','',array('image')); ?>" alt="">
+								<img src="<?php echo base_url() ?>data/<?php echo format_model_param($req['user_id'],'user','','',array('image')) ?>" />
 							</div>
 							<div class="span11">
 								<span style="color: #02ADD8;"><?php echo format_model_param($req['user_id'],'user','','',array('username')); ?></span> Request <br>

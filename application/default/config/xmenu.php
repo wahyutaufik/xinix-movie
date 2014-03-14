@@ -41,6 +41,8 @@ $config['xmenu_items'][1]['children'][4]['title'] = 'Parameter';
 $config['xmenu_items'][1]['children'][4]['uri']   = 'sysparam/listing';
 $config['xmenu_items'][1]['children'][5]['title'] = 'Module';
 $config['xmenu_items'][1]['children'][5]['uri']   = 'module/listing';
+$config['xmenu_items'][1]['children'][6]['title'] = 'Clear Cache';
+$config['xmenu_items'][1]['children'][6]['uri']   = 'sys/cache_clean';
 
 $config['xmenu_items'][2]['title'] = 'Manage';
 $config['xmenu_items'][2]['children'][0]['title'] = 'Country';

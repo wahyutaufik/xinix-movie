@@ -99,7 +99,7 @@ echo $this->admin_panel->breadcrumb(array(
         </div>
         <div>
             <label><?php echo l('Image') ?></label>
-            <!-- <input type='file' name='image' /><br> -->
+            <input type='file' name='image' /><br>
             <div>
                 <?php if(@$id != null): ?>
                     <img width="120px" src="<?php echo base_url() ?>data/<?php echo set_value('image') ?>" />

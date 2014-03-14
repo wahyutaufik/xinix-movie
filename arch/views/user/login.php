@@ -42,6 +42,7 @@
                 <div style="padding-top:10px">
                     <input type="hidden" name="continue" value="" />
                     <input type="submit" value="Login" />
+                    <a href="<?php echo site_url('web/signup') ?>" class="btn"><?php echo l('Signup') ?></a>
                 </div>
             </div>
         </form>
