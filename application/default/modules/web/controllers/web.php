@@ -74,6 +74,7 @@ class web extends app_crud_controller {
 
     function detail_user($id=null){
         
+        // xlog($id);exit;
         $this->load->helper('format');
         $user = $this->_model('user')->get($id);
         $this->_data['user'] = $user;
