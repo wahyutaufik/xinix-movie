@@ -22,7 +22,7 @@ class web extends app_crud_controller {
         $this->load->helper('format');
         $this->load->helper('security');
 
-        $film = $this->db->query("SELECT * FROM film WHERE status !=0 ORDER BY created_time DESC")->result_array();
+        $film = $this->db->query("SELECT * FROM film WHERE status !=0 AND publish=1 ORDER BY created_time DESC")->result_array();
         $this->_data['film'] = $film;
         // xlog($request);exit;
 
