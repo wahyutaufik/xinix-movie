@@ -15,7 +15,9 @@ class web extends app_crud_controller {
         return TRUE;
     }
 
-    function index(){
+    function index($id=null){
+        $user = $this->_model('user')->get($id);
+        $this->_data['user'] = $user;
         $this->_layout_view = 'layouts/web';
         $this->load->helper('format');
         $this->load->helper('security');

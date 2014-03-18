@@ -47,6 +47,7 @@
 									<?php $USER = $CI->auth->get_user() ?>
 									<?php if($USER['is_login']) : ?>
 									<li><a href='<?php echo site_url('user/logout')?>'>Logout</a></li>
+									<li><a href='<?php echo site_url('web/detail_user')?>'><span style="color: #02ADD8;"><?php echo $USER['username'] ?></span></a></li>
 									<?php else : ?>
 									<li><a href='<?php echo site_url('user/login')?>'>Login</a></li>
 									<?php endif ?>

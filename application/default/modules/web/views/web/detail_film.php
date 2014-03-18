@@ -9,7 +9,8 @@
 		<div class="post">
 			<div class="row-fluid">
 				<div class="span3">
-					<img src ="<?php echo base_url('data/').'/'.$film['cover'] ?>" width="200">		
+					<img src ="<?php echo base_url('data/').'/'.$film['cover'] ?>" width="200">	<br><br><br>
+					<center><a href="" class="btn"><b>Download</b></a></center>
 				</div>
 				<div class="span6">
 					<div class="row-fluid">
