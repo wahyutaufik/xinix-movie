@@ -186,3 +186,13 @@
 3,web/index,/,GET,,127.0.0.1,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36",,1,,"2014-03-18 13:21:19",wahyutaufik37
 3,web/detail_user,web/detail_user/3,GET,,127.0.0.1,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36",,1,,"2014-03-18 13:21:20",wahyutaufik37
 3,web/index,/,GET,,127.0.0.1,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36",,1,,"2014-03-18 13:21:47",wahyutaufik37
+3,web/request_movie,web/request_movie,GET,,127.0.0.1,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36",,1,,"2014-03-18 13:44:00",wahyutaufik37
+3,web/request_movie,web/request_movie,GET,,127.0.0.1,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36",,1,,"2014-03-18 13:45:09",wahyutaufik37
+3,site/index,site/index,GET,,127.0.0.1,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36",,1,,"2014-03-18 13:59:58",wahyutaufik37
+3,film/listing,film/listing,GET,,127.0.0.1,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36",,1,,"2014-03-18 14:00:02",wahyutaufik37
+3,film/add,film/add,GET,,127.0.0.1,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36",,1,,"2014-03-18 14:00:05",wahyutaufik37
+3,film/add,film/add,POST,"*""title"":""5 CM"",""description"":null,""trailer"":""http:\/\/www.youtube.com\/watch?v=s0ncD-MQwKA"",""size"":""459 MB"",""quality"":""3"",""category_id"":""5""}",127.0.0.1,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36",,1,,"2014-03-18 14:00:44",wahyutaufik37
+3,film/listing,film/listing,GET,,127.0.0.1,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36",,1,,"2014-03-18 14:00:44",wahyutaufik37
+3,film/listing,film/listing,GET,"*""per_page"":""100""}",127.0.0.1,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36",,1,,"2014-03-18 14:00:48",wahyutaufik37
+3,film/publish,film/publish/13,GET,,127.0.0.1,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36",,1,,"2014-03-18 14:00:55",wahyutaufik37
+3,film/listing,film/listing,GET,,127.0.0.1,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36",,1,,"2014-03-18 14:00:55",wahyutaufik37
