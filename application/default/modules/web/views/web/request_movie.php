@@ -21,7 +21,7 @@
 								<img src="<?php echo base_url() ?>data/<?php echo format_model_param($req['user_id'],'user','','',array('image')) ?>" />
 							</div>
 							<div class="span11">
-								<span style="color: #02ADD8;"><?php echo format_model_param($req['user_id'],'user','','',array('username')); ?></span> Request <br>
+								<a href="<?php echo site_url('web/detail_user')?>"><span style="color: #02ADD8;"><?php echo format_model_param($req['user_id'],'user','','',array('username')); ?></span></a> Request <br>
 								<?php echo $req['content']; ?>
 								</div>
 						</div><br><br>

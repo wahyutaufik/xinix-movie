@@ -70,6 +70,13 @@ class web extends app_crud_controller {
         $this->_data['film'] = $film;
     }
 
+    function detail_user($id=null){
+        
+        $this->load->helper('format');
+        $user = $this->_model('user')->get($id);
+        $this->_data['user'] = $user;
+    }
+
     function privacy(){
         
 
