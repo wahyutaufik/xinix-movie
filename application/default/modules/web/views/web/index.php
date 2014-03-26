@@ -17,6 +17,10 @@
 			</div>
 		</div>
 		<?php endforeach;?>
+		<div class="clear"></div>
+        <div>
+            <?php echo $this->pagination->create_links() ?>
+        </div>
 	</div>
 	<div class="clear"></div>	
 </div>

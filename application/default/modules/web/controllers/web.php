@@ -15,16 +15,29 @@ class web extends app_crud_controller {
         return TRUE;
     }
 
-    function index($id=null){
-        $user = $this->_model('user')->get($id);
-        $this->_data['user'] = $user;
+    function index2(){
+        redirect(site_url('web/index'));
+    }
+
+    function index($offset=0){
+        $this->load->library('pagination');
         $this->_layout_view = 'layouts/web';
         $this->load->helper('format');
         $this->load->helper('security');
-
-        $film = $this->db->query("SELECT * FROM film WHERE status !=0 AND publish=1 ORDER BY created_time DESC")->result_array();
+        
+        $countfilm = $this->db->query("SELECT count(*) as count FROM film WHERE status !=0 ")->row_array();
+        $film = $this->db->query("SELECT * FROM film WHERE status !=0 ORDER BY created_time DESC LIMIT ?,? ", array(intval($offset), 10))->result_array();
         $this->_data['film'] = $film;
-        // xlog($request);exit;
+        $count = $countfilm['count'];
+        // xlog($this->db->last_query());exit;
+
+        $config['base_url'] = site_url('web/index');
+        $config['total_rows'] = $count;
+        $config['per_page'] = 10; 
+        $config['uri_segment'] = 3;
+
+        $a = $this->pagination->initialize($config); 
+
 
     }
 

@@ -146,7 +146,7 @@ class film extends app_crud_controller {
         $this->pagination->initialize(array(
             'total_rows' => $count,
             'per_page' => $per_page,
-            'uri_segment' => 3,
+            'uri_segment' => 4,
             'base_url' => site_url('web/cat/'.$cat_id),
         ));
         $this->_data['films'] = $films;
