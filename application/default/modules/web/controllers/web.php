@@ -26,7 +26,7 @@ class web extends app_crud_controller {
         $this->load->helper('security');
         
         $countfilm = $this->db->query("SELECT count(*) as count FROM film WHERE status !=0 ")->row_array();
-        $film = $this->db->query("SELECT * FROM film WHERE status !=0 ORDER BY created_time DESC LIMIT ?,? ", array(intval($offset), 10))->result_array();
+        $film = $this->db->query("SELECT * FROM film WHERE status !=0 AND publish=1 ORDER BY created_time DESC LIMIT ?,? ", array(intval($offset), 10))->result_array();
         $this->_data['film'] = $film;
         $count = $countfilm['count'];
         // xlog($this->db->last_query());exit;
