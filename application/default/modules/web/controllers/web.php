@@ -52,13 +52,17 @@ class web extends app_crud_controller {
         $this->load->library('pagination');
         $category = $this->db->query('SELECT * FROM category WHERE id = ?',array(intval($id)))->result_array();
         $this->_data['category'] = $category;
+        foreach ($category as $item) {
+            # code...
+        }
+        // xlog($item);exit;
 
         $countfilm = $this->db->query("SELECT count(*) as count FROM film WHERE status !=0 AND publish=1 ")->row_array();
         $film = $this->db->query('SELECT * FROM film WHERE category_id = ? AND status !=0 AND publish=1 ORDER BY created_time DESC LIMIT ?,?', array(intval($id), intval($offset), 10))->result_array();
         $this->_data['film'] = $film;
         $count = $countfilm['count'];
 
-        $config['base_url'] = site_url('web/cat_list'.'/'.$category['id']);
+        $config['base_url'] = site_url('web/cat_list'.'/'.$item['id']);
         $config['total_rows'] = $count;
         $config['per_page'] = 10; 
         $config['uri_segment'] = 3;
