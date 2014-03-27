@@ -2,7 +2,9 @@
 	<div id="wrap2">
 		<div class="switch">
 			<div class="switch-left">
-				<span style="color: #aaa;">Category</span> <?php echo $category['name'];?>
+				<?php foreach ($category as $key => $item) : ?>
+				<span style="color: #aaa;">Category</span> <?php echo $item['name'];?>
+				<?php endforeach ?>
 			</div>
 		</div>
 		<?php foreach ($film as $item):?>

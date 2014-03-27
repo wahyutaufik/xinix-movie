@@ -48,13 +48,13 @@ class web extends app_crud_controller {
 
     }
 
-    function cat_list($cat_id=null, $id=null, $offset=0){
-        $category = $this->_model('category')->get($id);
+    function cat_list($id=null, $offset=0){
+        $category = $this->db->query('SELECT * FROM category WHERE id = ?',array(intval($id)))->result_array();
         $this->_data['category'] = $category;
         $per_page = 8;
-        $film = $this->db->query('SELECT * FROM film WHERE category_id = ? AND publish=1 ORDER BY updated_time DESC LIMIT ?, ?', array($cat_id, intval($offset), intval($per_page)))->result_array();
-        $this->_data['film'] = $film;
+        $film = $this->db->query('SELECT * FROM film WHERE category_id = ?', array(intval($id), intval($per_page)))->result_array();
         // xlog($film);exit;
+        $this->_data['film'] = $film;
     } 
 
 
