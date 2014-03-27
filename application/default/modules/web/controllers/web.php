@@ -25,7 +25,7 @@ class web extends app_crud_controller {
         $this->load->helper('format');
         $this->load->helper('security');
         
-        $countfilm = $this->db->query("SELECT count(*) as count FROM film WHERE status !=0 ")->row_array();
+        $countfilm = $this->db->query("SELECT count(*) as count FROM film WHERE status !=0 AND publish=1 ")->row_array();
         $film = $this->db->query("SELECT * FROM film WHERE status !=0 AND publish=1 ORDER BY created_time DESC LIMIT ?,? ", array(intval($offset), 10))->result_array();
         $this->_data['film'] = $film;
         $count = $countfilm['count'];
@@ -49,12 +49,21 @@ class web extends app_crud_controller {
     }
 
     function cat_list($id=null, $offset=0){
+        $this->load->library('pagination');
         $category = $this->db->query('SELECT * FROM category WHERE id = ?',array(intval($id)))->result_array();
         $this->_data['category'] = $category;
-        $per_page = 8;
-        $film = $this->db->query('SELECT * FROM film WHERE category_id = ?', array(intval($id), intval($per_page)))->result_array();
-        // xlog($film);exit;
+
+        $countfilm = $this->db->query("SELECT count(*) as count FROM film WHERE status !=0 AND publish=1 ")->row_array();
+        $film = $this->db->query('SELECT * FROM film WHERE category_id = ? AND status !=0 AND publish=1 ORDER BY created_time DESC LIMIT ?,?', array(intval($id), intval($offset), 10))->result_array();
         $this->_data['film'] = $film;
+        $count = $countfilm['count'];
+
+        $config['base_url'] = site_url('web/cat_list');
+        $config['total_rows'] = $count;
+        $config['per_page'] = 10; 
+        $config['uri_segment'] = 3;
+
+        $a = $this->pagination->initialize($config);
     } 
 
 
