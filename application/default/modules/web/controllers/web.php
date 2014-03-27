@@ -52,8 +52,9 @@ class web extends app_crud_controller {
         $category = $this->_model('category')->get($id);
         $this->_data['category'] = $category;
         $per_page = 8;
-        $film = $this->db->query('SELECT * FROM film WHERE category_id = ? ORDER BY updated_time DESC LIMIT ?, ?', array($cat_id, intval($offset), intval($per_page)))->result_array();
-        xlog($film);exit;
+        $film = $this->db->query('SELECT * FROM film WHERE category_id = ? AND publish=1 ORDER BY updated_time DESC LIMIT ?, ?', array($cat_id, intval($offset), intval($per_page)))->result_array();
+        $this->_data['film'] = $film;
+        // xlog($film);exit;
     } 
 
 
