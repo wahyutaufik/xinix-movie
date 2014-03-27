@@ -58,7 +58,7 @@ class web extends app_crud_controller {
         $this->_data['film'] = $film;
         $count = $countfilm['count'];
 
-        $config['base_url'] = site_url('web/cat_list'.$category['id']);
+        $config['base_url'] = site_url('web/cat_list'.'/'.$category['id']);
         $config['total_rows'] = $count;
         $config['per_page'] = 10; 
         $config['uri_segment'] = 3;
