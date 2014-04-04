@@ -6,8 +6,8 @@
     <!-- <link href='http://fonts.googleapis.com/css?family=Fauna+One|Quando|Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'> -->
     <link type="image/x-icon" href="<?php echo theme_url('favicon.ico') ?>" rel="Shortcut icon" />
     <link href="<?php echo theme_url('js/code-prettify/prettify.css') ?>" media="all" rel="stylesheet" type="text/css" />
-    <link href="<?php echo theme_url('css/bootstrap-responsive.min.css') ?>" rel="stylesheet" media="screen" />
     <link href="<?php echo theme_url('css/bootstrap.css') ?>" rel="stylesheet" media="screen" />
+    <link href="<?php echo theme_url('css/bootstrap-responsive.min.css') ?>" rel="stylesheet" media="screen" />
     <link href="<?php echo theme_url('css/web.css') ?>" rel="stylesheet" media="screen" />
 
     <script type="text/javascript" src="<?php echo theme_url('js/jquery-1.8.2.min.js') ?>"></script>
@@ -23,10 +23,13 @@
 				<div class='widget Header' id='Header1'>
 					<div id='header-inner'>
 						<div class='titlewrapper'>
-							<h1 class='title'>
+							<h1 class='title pull-left'>
 								<img src="<?php echo theme_url() ?>img/xinix.png">
 								<a href='<?php echo site_url()?>'>XINIX-MOVIE</a>
 							</h1>
+							<div class="pull-right" id="menu-phone">
+								<a ><img src="<?php echo theme_url() ?>img/menu-icon.png" alt=""></a>
+							</div>
 						</div>
 						<div class="descriptionwrapper">
 							<p class="description"><span></span></p>
@@ -82,4 +85,11 @@
 		</div>
 	</div>
 </body>
+<script>
+	$(function(){
+		$('#menu-phone').on('click', function(){
+			$('#nav-wrapper').toggle(500);
+		});
+	});
+</script>
 </html>
