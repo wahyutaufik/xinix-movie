@@ -1309,4 +1309,7 @@ a.dat_view{
     .bar{
         width: 93%
     }
+    .switch{
+        height: 33px;
+    }
 }

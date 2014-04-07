@@ -51,3 +51,8 @@
 1,web/index2,/,GET,,192.168.42.129,"Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; SonyST25i Build/6.2.A.1.100) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",,1,,"2014-04-07 11:46:40",admin
 1,web/index,web/index,GET,,192.168.42.129,"Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; SonyST25i Build/6.2.A.1.100) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",,1,,"2014-04-07 11:46:40",admin
 1,web/index,web/index,GET,,127.0.0.1,"Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X; en-us) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53",,1,,"2014-04-07 11:46:52",admin
+1,web/index,web/index/10,GET,,127.0.0.1,"Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X; en-us) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53",,1,,"2014-04-07 11:56:11",admin
+1,web/index2,/,GET,,127.0.0.1,"Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X; en-us) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53",,1,,"2014-04-07 11:56:16",admin
+1,web/index,web/index,GET,,127.0.0.1,"Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X; en-us) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53",,1,,"2014-04-07 11:56:16",admin
+1,web/index,web/index,GET,,127.0.0.1,"Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X; en-us) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53",,1,,"2014-04-07 11:57:22",admin
+1,web/category,web/category,GET,,127.0.0.1,"Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X; en-us) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53",,1,,"2014-04-07 11:57:39",admin
