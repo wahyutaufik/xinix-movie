@@ -758,14 +758,14 @@ h2.date-header{
     height:25px;
     color:#000;
     margin:10px 10px 10px 10px;
-    padding:5px 10px 10px;
+    padding:10px 10px 10px;
     text-transform:uppercase;
 
 }
 
 .switch-left{
     width:500px;
-    float:left;
+    float:none;
     margin:0 auto;
     padding-bottom:5px;
     font:20px Arial;
@@ -1307,9 +1307,11 @@ a.dat_view{
         margin-top: 10px;
     }
     .bar{
-        width: 93%
+        width: 100%;
+        margin: 0;
     }
     .switch{
-        height: 33px;
+        height: auto;
+        margin: 10px 0 10px;
     }
 }
