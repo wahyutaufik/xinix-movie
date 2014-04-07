@@ -3,6 +3,7 @@
 <head>
     <title><?php echo $CI->_page_title; ?></title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- <link href='http://fonts.googleapis.com/css?family=Fauna+One|Quando|Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'> -->
     <link type="image/x-icon" href="<?php echo theme_url('favicon.ico') ?>" rel="Shortcut icon" />
     <link href="<?php echo theme_url('js/code-prettify/prettify.css') ?>" media="all" rel="stylesheet" type="text/css" />
@@ -88,7 +89,7 @@
 <script>
 	$(function(){
 		$('#menu-phone').on('click', function(){
-			$('#nav-wrapper').toggle(500);
+			$('#nav-wrapper').toggle(200);
 		});
 	});
 </script>
